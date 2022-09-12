@@ -59,3 +59,13 @@ Les mineurs s'organisent en pool : un mineur mine un bloc, le pool est récompen
 ##Solidity ##
 
 [Docs](https://soliditylang.org/)
+Smart contract (DAPP) permet d'intégrer du code dans la blockchain.  
+[Cryptozombies]( https://cryptozombies.io/fr/) : solidity est le langage pour déployer du code dans la blockchain.
+Ce site permet de se faire les dents dessus, et de prendre les infos qui seront nécessaires pour monter notre propre projet.   
+!! ATTENTION tout ce qui est déployé dans la blockchain est définitif !!
+
+-- TODO: aller aussi loin que possible sur cryptozombies pour appréhender le langage Solidity -- 
+
+Reseaux de tests : 
+* test net : reseaux où les données ne sont pas conservées (tests de perf)
+* dev net : déployer du code sans devoir payer de l'eth. On travaille sur ces reseaux. Ils peuvent être plus lents car ils n'auront pas le même nombre de noeuds.
