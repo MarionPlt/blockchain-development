@@ -1,6 +1,6 @@
-# INTRO BLOCKCHAIN #
+#INTRO BLOCKCHAIN
 
-## Histoire de la blockchain ##
+##Histoire de la blockchain ##
 `présentation des diapos de Bernard BONCHE - cours électif de M1`
 
 Problématiques : 
@@ -23,7 +23,7 @@ Principes :
 * cryptographie (écrire, lire, modifier, supprimer selon les règles partagées et acceptées) : notions de clé privé (prouve la propriété en Blockchain) et publique  
 
 
-### Instant culture générale ###
+###Instant culture générale ###
 ``Stuart Haber & Scott Stornetta (1991)`` : publication sur les premiers essais de la blockchain. Théorie d'un réseau décentralisé dans lequel les infos sont stockés dans des blocs (1 info/bloc)  
 ``Merkle Tree (1992)`` : permet de stocker plusieurs infos au sein d'un même bloc, optimise performances de la blockchain  
 ``Bitgold (2005)`` : décerner des titres de propriété dans la blockchain. Jeton qu'on pouvait dépenser deux fois (dépenser 1000€ sur son compte, et refaire la meme opération avant que le compte soit débité)``Double Spend`` Un jeton (token) = 1 élement avec un stock défini qu'on peut échanger de tier à tier dans un réseau décentralisé. Tous ces jetons sont identiques.  
@@ -36,7 +36,7 @@ Principes :
 *NFT* : jeton unique, permet d'obtenir un certificat (ne peut pas servir de monnaie car unique). 
 
 
-### Présentation de la blockchain ###
+###Présentation de la blockchain ###
 
 Un bloc = de l'information en liste chaînée.  
 Un bloc : 
@@ -56,12 +56,6 @@ Le but : calculer les hash des nouvelles transactions et des blocs.
 Problème : vérifier qu'à chaque nouveau bloc, tous les hash soient uniques à nouveau. En théorie, il y a un gap entre l'entrée de l'info dans la blockchain et la validation par les autres mineurs.
 
 Les mineurs s'organisent en pool : un mineur mine un bloc, le pool est récompensé pour récompenser tous les mineurs. un pool plus puissant a plus de chances à offrir rémunération, mais cette rémunération sera divisée.  
-## Solidity ##
+##Solidity ##
 
 [Docs](https://soliditylang.org/)
-Smart contract (DAPP) permet d'intégrer du code dans la blockchain.  
-[Cryptozombies]( https://cryptozombies.io/fr/) : solidity est le langage pour déployer du code dans la blockchain.
-Ce site permet de se faire les dents dessus, et de prendre les infos qui seront nécessaires pour monter notre propre projet.   
-!! ATTENTION tout ce qui est déployé dans la blockchain est définitif !!
-
--- TODO: aller aussi loin que possible sur cryptozombies pour appréhender le langage Solidity -- 
