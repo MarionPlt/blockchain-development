@@ -57,3 +57,11 @@ Problème : vérifier qu'à chaque nouveau bloc, tous les hash soient uniques à
 
 Les mineurs s'organisent en pool : un mineur mine un bloc, le pool est récompensé pour récompenser tous les mineurs. un pool plus puissant a plus de chances à offrir rémunération, mais cette rémunération sera divisée.  
 ##Solidity ##
+
+[Docs](https://soliditylang.org/)
+Smart contract (DAPP) permet d'intégrer du code dans la blockchain.  
+[Cryptozombies]( https://cryptozombies.io/fr/) : solidity est le langage pour déployer du code dans la blockchain.
+Ce site permet de se faire les dents dessus, et de prendre les infos qui seront nécessaires pour monter notre propre projet.   
+!! ATTENTION tout ce qui est déployé dans la blockchain est définitif !!
+
+-- TODO: aller aussi loin que possible sur cryptozombies pour appréhender le langage solidity -- 
