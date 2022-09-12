@@ -57,6 +57,3 @@ Problème : vérifier qu'à chaque nouveau bloc, tous les hash soient uniques à
 
 Les mineurs s'organisent en pool : un mineur mine un bloc, le pool est récompensé pour récompenser tous les mineurs. un pool plus puissant a plus de chances à offrir rémunération, mais cette rémunération sera divisée.  
 ##Solidity ##
-
-[Docs](https://soliditylang.org/)
-Smart contract (DAPP) permet d'intégrer du code dans la blockchain. 
