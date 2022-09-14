@@ -104,12 +104,17 @@ NB : Metamask piraté souvent, ne jamais laisser beaucoup d'eth sur le compte Me
 
 1) tenter de diminuer fortement le gaz sur du code léger et du code lourd pour observer les différences
 2) qu'est ce qui se passe si on met trop de gaz ?
-3) créer un smartcontact sur le sujet d notre choix
 
 Parcourir des contrats OpenZepellin (en groupe):
-4) observer le code des contrats => quels éléments/ mots clés sont visibles et qu'on a pas vu ( à quoi correspond le ``is`` ? comment on écrit une interface ? bonnes pratiques avec les _ dans les noms de variable? ``memory``? ``override``? ``balance of`` ? )
-5) tester ce que vous avez observé avec Solidity!
+3) observer le code des contrats => quels éléments/ mots clés sont visibles et qu'on a pas vu ( à quoi correspond le ``is`` ? comment on écrit une interface ? bonnes pratiques avec les _ dans les noms de variable? ``memory``? ``override``? ``balance of`` ? )
+4) tester ce que vous avez observé avec Solidity!
 
+Déployer un token ERC20 (en groupe):
+5) comment Solodity gère les nombres a virgule?
+6) parcourez le contrat : pourquoi on parle de 18 décimales? quels seront les impacts? 
+
+Comment se comporte les blockchains avec le stockage massif de fichiers? 
+Voir [https://www.arweave.org/](https://www.arweave.org/), [https://ipfs.tech/](https://ipfs.tech/)
 
 pour travailler en local installer IDE [Truffle ou Ganache](https://trufflesuite.com/)
 Si utilisé, faire une prez et comparer remix / truffle/ ganache
