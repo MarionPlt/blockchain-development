@@ -105,7 +105,7 @@ NB : Metamask piraté souvent, ne jamais laisser beaucoup d'eth sur le compte Me
 1) tenter de diminuer fortement le gaz sur du code léger et du code lourd pour observer les différences
 2) qu'est ce qui se passe si on met trop de gaz ?
 
-Parcourir des contrats OpenZepellin (en groupe):
+Parcourir des contrats [OpenZepellin](https://github.com/OpenZeppelin) (en groupe):
 3) observer le code des contrats => quels éléments/ mots clés sont visibles et qu'on a pas vu ( à quoi correspond le ``is`` ? comment on écrit une interface ? bonnes pratiques avec les _ dans les noms de variable? ``memory``? ``override``? ``balance of`` ? )
 4) tester ce que vous avez observé avec Solidity!
 
