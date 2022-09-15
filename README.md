@@ -120,6 +120,13 @@ Voir [https://www.arweave.org/](https://www.arweave.org/), [https://ipfs.tech/](
 pour travailler en local installer IDE [Truffle ou Ganache](https://trufflesuite.com/)  
 Si utilisé, faire une prez et comparer remix / truffle/ ganache  
 
+####Questions qu'on peut retrouver en QCM : ####
+- différences de code entre ERC20 et ERC271 ? (ERC20 accepte 18 "decimales", c'est en vrai un entier pour ne pas s'embeter avec les floats on utilise 10**18decimale, ce qui correspond a des wei, qui est la plus petite unité d'eth)
+- quelles sont les variables globales qu'on peut trouver dans Solidity? (**msg**.sender) par exemple  
+
+__Les questions attendront des réponses de développeur (axées sur le code).__
+
+
 
 ## Projet ##  
 
