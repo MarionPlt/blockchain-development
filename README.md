@@ -31,7 +31,7 @@ Principes :
 ``Creation blockchain, prmeier déploiement Bitcoin(2009)``  
 
 ``Vitalik Buterin`` : Necessité de créer un langage adapté à la blockchain : création `` blockchain Etherium (2014)`` autour de laquelle on peut développer des application dApps (Decentralised Apps).  
-3kM d'€ investis dans la blockchain
+3k Milliards d'€ investis dans la blockchain
 
 *NFT* : jeton unique, permet d'obtenir un certificat (ne peut pas servir de monnaie car unique). 
 
@@ -123,6 +123,7 @@ Si utilisé, faire une prez et comparer remix / truffle/ ganache
 ####Questions qu'on peut retrouver en QCM : ####
 - différences de code entre ERC20 et ERC271 ? (ERC20 accepte 18 "decimales", c'est en vrai un entier pour ne pas s'embeter avec les floats on utilise 10**18decimale, ce qui correspond a des wei, qui est la plus petite unité d'eth)
 - quelles sont les variables globales qu'on peut trouver dans Solidity? (**msg**.sender) par exemple  
+- quelle est la différence entre ``memory`` et ``storage``?
 
 __Les questions attendront des réponses de développeur (axées sur le code).__
 
